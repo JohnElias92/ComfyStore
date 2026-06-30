@@ -23,12 +23,8 @@ exports.handler = async function (event, context) {
     } catch (error) {
       return {
         statusCode: 500,
-        body: JSON.stringify({ msg: error.message }),
+        body: JSON.stringify({ error: error.message }),
       };
     }
   }
-  return {
-    statusCode: 200,
-    body: 'Create Payment Intent',
-  };
 };
