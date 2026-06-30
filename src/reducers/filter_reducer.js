@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import { all } from 'axios';
 import {
   LOAD_PRODUCTS,

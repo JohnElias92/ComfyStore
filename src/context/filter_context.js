@@ -11,6 +11,7 @@ import {
   CLEAR_FILTERS,
 } from '../actions';
 import { useProductsContext } from './products_context';
+// eslint-disable-next-line
 import { clear } from '@testing-library/user-event/dist/clear';
 
 const initialState = {
